@@ -21,3 +21,11 @@ def mult_list(list):
       prod = prod * i
 
   return prod
+
+#Write a Python function called rev_string() to reverse a string.
+def reverse_string(strng):
+  return strng[::-1]
+
+print(reverse_string('This is a string'))
+
+
