@@ -23,9 +23,16 @@ def mult_list(list):
   return prod
 
 #Write a Python function called rev_string() to reverse a string.
-def reverse_string(strng):
+def rev_string(strng):
   return strng[::-1]
 
-print(reverse_string('This is a string'))
+print(rev_string('This is a string'))
 
+#Write a Python function called num_within() to check whether a number falls in a given range.
+def num_within(num, low_num, high_num):
+  if num >= low_num and num <= high_num:
+    return True
+  else: return False
 
+print(num_within(1,1,2))
+print(num_within(4,5,7))
